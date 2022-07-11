@@ -5,6 +5,7 @@
 package Main;
 
 import Controller.Controller;
+import Model.CategoryUser;
 import Model.User;
 import View.MainMenu;
 import java.util.ArrayList;
@@ -15,10 +16,7 @@ import java.util.ArrayList;
  */
 public class Main {
     
-    public Main() {
-        Controller controller =  new Controller();
-        ArrayList<User> user = controller.getAllUsers();
-        
+    public Main() {        
         new MainMenu();
     }
     
