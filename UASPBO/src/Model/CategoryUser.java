@@ -9,5 +9,6 @@ package Model;
  * @author Mena
  */
 public class CategoryUser {
-    
+    private int id;
+    private String name;
 }
