@@ -9,6 +9,32 @@ package Model;
  * @author Mena
  */
 public class CategoryUser {
-    private int id;
-    private String name;
+    int id;
+    String name;
+
+    public CategoryUser() {
+    }
+
+    public CategoryUser(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
 }
